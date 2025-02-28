@@ -1,0 +1,177 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: white;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.white-hover:hover {
+    background-color: white;
+}
+
+.menu-text:hover {
+    color: black;
+}
+
+.checked {
+    color: orange;
+}
+
+.navbar {
+    /* position: fixed; */
+    width: 100%;
+}
+
+#section1 {
+    background-image: url("https://i.pinimg.com/736x/3a/06/94/3a0694ed94296bfc5da8939622766a40.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+#first-pagetext {
+    margin: 80px auto;
+    text-align: center;
+}
+
+#head1 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+/* contact */
+
+.contact-form {
+    height: 200px;
+    width: 40%;
+    margin: auto;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+.property {
+    font-size: 25px;
+}
+
+.property:hover {
+    border: solid 3px blue;
+}
+
+/* section7 (footer) */
+#section7 {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+#image-footer {
+    background-image: url("https://www.wedevelop.coffee/wp-content/uploads/2018/01/About-Footer-background-1024x420.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.style-text {
+    font-family: cursive;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 40px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #section1 {
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+    }
+
+    #first-pagetext {
+        margin: 40px auto;
+    }
+
+    #head1 {
+        /* font-size: 50px; */
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #section1 {
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+    }
+
+    #first-pagetext {
+        margin: 20px auto;
+    }
+}
+
+/* @media (min-width: 768px) and (max-width: 992px) {
+    #section1 {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+
+    #first-pagetext {
+        margin: 20px auto;
+    }
+
+    #head1 {
+        padding-top: 10px;
+    }
+} */
+
+@media (min-width: 576px) and (max-width: 768px) {
+    #section1 {
+        max-width: 100%;
+        height: 400px;
+        background-size: contain;
+    }
+
+    #first-pagetext {
+        margin: 20px auto;
+        text-align: justify;
+    }
+
+    #head1 {
+        padding-top: 10px;
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    #section1 {
+        max-width: 100%;
+        height: 400px;
+        background-size: 100% 100%;
+    }
+
+    #first-pagetext {
+        margin: 20px auto;
+        text-align: justify;
+    }
+
+    #head1 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
